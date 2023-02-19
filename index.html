@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,500;1,800&display=swap');
+</style>
+    <title>Word Tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+       <div>
+         <h1>Word Tool</h1>
+       </div>
+       <div>
+         <h3>Play with words</h3>
+       </div>
+     </header>
+     <main>
+       <div class="tarea">
+       <textarea id="sentence" placeholder="Your sentence goes here...."></textarea>
+       </div>
+       <div class="btns" >
+         <button id="submity" type="submit">
+           <a  href="/index.html#sentence"    >Count</a></button>
+         <button id="resety" type="reset">Clear</button>
+       </div>
+     </main>
+     
+     <section  id="box">
+
+      <div class="boxrow">
+       <div id="box1">
+         <div    id="div1"    >
+           <h3>Word Count</h3>
+         </div>
+         <div id="div2">
+           <p id="fnwords">0 words</p>
+         </div>
+       </div>
+        <div id="box2">
+         <div id="div3">
+           <h3>Character Count</h3>
+         </div>
+         <div id="div4">
+           <p id="fnchar">0 Characters</p>
+         </div>
+       </div>
+      </div>
+      <div class="boxrow1">
+      
+      <div id="box3">
+        <div id="div5">
+          <h3>Specific Count</h3>
+          
+        </div>
+        <div id="div6">
+           <input placeholder="Enter a word or character"  type="text" id="specificchar">
+           <button id="submity2">Find</button>
+        </div>
+        <div id="div7">
+          <p id="fnspchar">0 Times</p>
+        </div>
+      </div>
+
+      <div id="box4">
+       <div id="div8">
+         <h3>Extra spaces</h3>
+       </div>
+       <div id="div9">
+         <p id="fnspace">0 spaces</p>
+       </div>
+      </div>
+    </div>
+    
+    
+    
+    
+     <div class="boxrow2">
+      
+      <div id="box5">
+        <div id="div9">
+          <h3>Replace Character<h3>
+          
+        </div>
+        <div id="div10">
+      <input  class="input1" id="swap1"  placeholder="character..."  type="text"  maxlength="1">
+         <img src="img/rep1.png">
+           <input class="input2" maxlength="1"   id="swap2"   placeholder="replace with..."  type="text" >
+         
+        </div>
+        <div id="div11">
+           <button id="replacey">Replace</button>
+        </div>
+      </div>
+
+      <div id="box6">
+       <div id="div12">
+          <h3>Replace Word<h3>
+          <p   id="case"   >(Case Sensitive)</p>
+          
+        </div>
+        <div id="div13">
+      <input  class="input3" id="swap3"  placeholder="word...."  type="text"  maxlength="20">
+         <img src="img/rep1.png">
+           <input class="input4" maxlength="50"   id="swap4"   placeholder="replace with..."  type="text" >
+         
+        </div>
+        <div id="div14">
+           <button id="replacey1">Replace</button>
+        </div>
+    </div>
+  
+       
+     </section>
+     <footer>
+       <h4>Copyright owned by Jeeva</h4>
+     </footer>
+     <script src="script.js" ></script>
+ 
+</body>
+
+</html>

@@ -1,0 +1,619 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ 
+background-image: linear-gradient(100deg,#000428 50%,#004e92 100%);
+}
+
+header{
+  border: 0pt solid ;
+  display: flex;
+  font-family: poppins,Sans-Serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+header div{
+  border: 0pt solid yellow;
+}
+
+header div h1{
+  color: white;
+  font-size: 2.2rem;
+  font-family: poppins,Sans-Serif;
+}
+header div h3{
+  color: white;
+  opacity: 90%;
+  font-size: .7rem;
+  font-family: poppins,Sans-Serif;
+}
+main{
+  margin-top: 12px;
+}
+
+
+
+
+
+main .tarea{
+  border: 0pt solid ;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+textarea{
+  width: 80vw;
+  height: 100%;
+  border: 0pt solid ;
+  background-color: white;
+  padding: 10px;
+  font-family: poppins,Sans-Serif;
+}
+
+main .btns{
+ 
+  display: flex;
+  justify-content: space-between;
+  
+  height: 60px;
+  width: 80vw;
+  margin: auto;
+  margin-top: 7px;
+ 
+}
+main .btns button{
+  width: 49.4%;
+  height: 100%;
+  background-color:rgb(255, 0, 89);
+  box-shadow: 2px 2px 5px rgba(0,0,0,.40);
+  border: 0pt solid #ff0000;
+   font-family: poppins,Sans-Serif;
+   font-size: 1rem;
+   color: white;
+   cursor: pointer;
+   
+}
+#submity a{
+  text-decoration: none !important;
+  color: white;
+}
+#box{
+  height: 215vh;
+  width: 80vw;
+  border: 0pt solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+#box .boxrow{
+  width: 100%;
+  height: 33%;
+  border: 0pt solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#box .boxrow1{
+  width: 100%;
+  height: 33%;
+  border: 0pt solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#box .boxrow2{
+  width: 100%;
+  height: 33%;
+  border: 0pt solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#box .boxrow #box1{
+  height: 43%;
+  border: 0pt solid yellow;
+ 
+
+}
+
+#box .boxrow #box2{
+  height: 43%;
+  border: 0pt solid yellow;
+}
+
+#box .boxrow1 #box3{
+  height: 43%;
+  border: 0pt solid yellow;
+}
+
+#box .boxrow1 #box4{
+  height: 43%;
+  border: 0pt solid green;
+}
+#box .boxrow2 #box5{
+  height: 43%;
+  border: 0pt solid yellow;
+}
+
+#box .boxrow2 #box6{
+  height: 43%;
+  border: 0pt solid green;
+}
+
+#box .boxrow #box1{
+  display: flex;
+  flex-direction: column;
+  
+  font-family: poppins,Sans-Serif;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+#box .boxrow #box1 #div1{
+  
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 39%;
+}
+#box .boxrow #box1 #div2{
+  
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 59%;
+}
+
+#box .boxrow #box2{
+  display: flex;
+  flex-direction: column;
+
+  font-family: poppins,Sans-Serif;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+#box .boxrow #box2 #div3{
+ height: 39%;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#box .boxrow #box2 #div4{
+  height: 59%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box .boxrow1 #box3{
+  display: flex;
+  flex-direction: column;
+  
+  font-family: poppins,Sans-Serif;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+#box .boxrow1 #box3 #div5{
+ height: 32%;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#box .boxrow1 #box3 #div6{
+  height: 32%;
+  
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+#box .boxrow1 #box3 #div7{
+  height: 32%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box .boxrow1 #box4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: poppins,Sans-Serif;
+  font-size: 1.1rem;
+}
+#box .boxrow1 #box4 #div8{
+ height: 39%;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#box .boxrow1 #box4 #div9{
+  height: 59%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ 
+#box .boxrow2 #box5{
+  display: flex;
+  flex-direction: column;
+  
+  font-family: poppins,Sans-Serif;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+#box .boxrow2 #box5 #div9{
+ height: 32%;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#box .boxrow2 #box5 #div10{
+  height: 32%;
+  border: 0pt solid ;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+#box .boxrow2 #box5 #div11{
+  height: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box .boxrow2 #box6{
+  display: flex;
+  flex-direction: column;
+  
+  font-family: poppins,Sans-Serif;
+  font-size: 1.1rem;
+  justify-content: space-between;
+}
+
+#box .boxrow2 #box6 #div12{
+ height: 32%;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#box .boxrow2 #box6 #div13{
+  height: 32%;
+  border: 0pt solid ;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+#box .boxrow2 #box6 #div14{
+  height: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+ 
+#box .boxrow1 #box3 #div6 input{
+  height: 100%;
+  width: 49.5%;
+  font-family: poppins,Sans-Serif;
+}
+#box .boxrow1 #box3 #div6 button{
+  height: 100%;
+  width: 49.5%;
+  background-color: rgb(255, 0, 89);
+  box-shadow: 2px 2px 5px rgba(0,0,0,.40);
+  border: 0pt solid white;
+  color: white;
+  cursor: pointer;
+  
+
+}
+
+
+
+
+#div6 input{
+  padding: 10px;
+    border: 1pt solid white;
+
+}
+#div6 button{
+  font-size: 1rem;
+  
+}
+#div11 button{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 0, 89);
+  box-shadow: 2px 2px 5px rgba(0,0,0,.40);
+  color: white;
+  font-family: poppins,Sans-Serif;
+  font-size: 1rem;
+  border: 0pt solid green;
+  cursor: pointer;
+  
+}
+
+#div14 button{
+  height: 100%;
+  width: 100%;
+  background-color:rgb(255, 0, 89);
+  box-shadow: 2px 2px 5px rgba(0,0,0,.40);
+  color: white;
+  font-family: poppins,Sans-Serif;
+  font-size: 1rem;
+  border: 0pt solid green;
+  cursor: pointer;
+  
+}
+#box .boxrow2 #box5 #div10 .input1{
+  background-color: white;
+  height: 100%;
+  width: 40%;
+  padding: 10px;
+  color: black;
+  font-family: poppins,Sans-Serif;
+  border: 1pt solid white;
+}
+#box .boxrow2 #box5 #div10 .input2{
+  background-color: white;
+  height: 100%;
+  width: 40%;
+  color: black;
+  padding: 10px;
+  font-family: poppins,Sans-Serif;
+  border: 1pt solid white;
+}
+
+#box .boxrow2 #box6 #div13 .input3{
+  background-color: white;
+  height: 100%;
+  width: 40%;
+  padding: 10px;
+  color: black;
+  font-family: poppins,Sans-Serif;
+  border: 1pt solid white;
+
+}
+#box .boxrow2 #box6 #div13 .input4{
+  background-color: white;
+  height: 100%;
+  width: 40%;
+  color: black;
+  padding: 10px;
+  font-family: poppins,Sans-Serif;
+  border: 1pt solid white;
+
+}
+.input1::placeholder{
+   
+   font-family: poppins,Sans-Serif;
+}
+.input2::placeholder{
+ 
+  font-family: poppins,Sans-Serif;
+}
+
+.input3::placeholder{
+   
+   font-family: poppins,Sans-Serif;
+}
+.input4::placeholder{
+  
+  font-family: poppins,Sans-Serif;
+}
+
+img{
+  width: 20%;
+  height: 80%;
+  
+}
+#div12 p{
+  font-size: 0.7rem;
+  margin-top: 1px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-top: 30px;
+  background-color: rgba(0,0,0,0.20);
+  color: rgba(255,255,255,0.88);
+  font-family: poppins,Sans-Serif;
+  font-size: 0.8rem;
+}
+
+main button:hover{
+  background-color: black;
+  border: 2pt solid rgb(255, 0, 89);
+ 
+}
+.boxrow1 #box3 #div6 #submity2:hover{
+  background-color: black;
+  border: 2pt solid rgb(255, 0, 89);
+ 
+}
+
+.boxrow2 #box5 #div11 #replacey:hover{
+  background-color: black;
+  border: 2pt solid rgb(255, 0, 89);
+ 
+}
+
+.boxrow2 #box6 #div14 #replacey1:hover{
+  background-color: black;
+  border: 2pt solid rgb(255, 0, 89);
+ 
+}
+
+main button:active{
+  font-size: 1.2rem;
+ 
+}
+.boxrow1 #box3 #div6 #submity2:active{
+  font-size: 1.2rem;
+ 
+}
+
+.boxrow2 #box5 #div11 #replacey:active{
+  font-size: 1.2rem;
+   
+}
+
+.boxrow2 #box6 #div14 #replacey1:active{
+  font-size: 1.2rem;
+ 
+}
+
+
+
+
+
+
+@media(min-width:700px) {
+  main .tarea{
+    height: 60vh;
+    
+  }
+  textarea{
+    font-size: 1rem;
+  }
+  #box{
+    display: flex;
+    flex-direction: column;
+    border: 0pt solid;
+    justify-content: space-evenly;
+    height: 120vh;
+    
+  }
+  
+  #box .boxrow{
+    border: 0pt solid red;
+    display: flex;
+    flex-direction: row;
+    height: 27%;
+    justify-content: space-between;
+  }
+  
+  #box .boxrow1{
+    border: 0pt solid red;
+    display: flex;
+    flex-direction: row;
+    height: 27%;
+    justify-content: space-between;
+  }
+  
+  #box .boxrow2{
+    border: 0pt solid red;
+    display: flex;
+    flex-direction: row;
+    height: 27%;
+    justify-content: space-between;
+  }
+  
+  #box .boxrow #box1{
+    border: 0pt solid blue;
+    width: 49.4%;
+    height: 100%;
+  }
+  
+    #box .boxrow #box2{
+    border: 0pt solid blue;
+    width: 49.4%;
+    height: 100%;
+  }
+  
+  
+  #box .boxrow1 #box3{
+    border: 0pt solid blue;
+    width: 49.4%;
+    height: 100%;
+  }
+  
+    #box .boxrow1 #box4{
+    border: 0pt solid blue;
+    width: 49.4%;
+    height: 100%;
+  }
+  
+    #box .boxrow2 #box5{
+    border: 0pt solid blue;
+    width: 49.4%;
+    height: 100%;
+  }
+  
+    #box .boxrow2 #box6{
+    border: 0pt solid blue;
+    width: 49.4%;
+    height: 100%;
+  }
+  #box1 #div2{
+    font-size: 1.8rem;
+  }
+  #box2 #div4{
+    font-size: 1.8rem;
+  }
+  #box3 #div7{
+    font-size: 1.5rem;
+  }
+  #box4 #div9{
+    font-size: 1.8rem;
+  }
+
+  #div6 input{
+    font-size: 1rem;
+  }
+  #div6 button{
+    font-size: 1.1rem;
+  }
+  #div10 input{
+    font-size: 1rem;
+  }
+  #div13 input{
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
